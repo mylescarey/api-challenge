@@ -1,0 +1,28 @@
+@import '../variables';
+
+.bookList {
+	text-align: right;
+	margin-top: 60px;
+	padding: $s * 3;
+}
+
+.books {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: $s * 3;
+}
+.center {
+	text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+	.books {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.books {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}

@@ -1,0 +1,13 @@
+@import '../variables';
+.root {
+	margin-bottom: $s * 3;
+
+	.label {
+		font-size: 14px;
+	}
+
+	.dropdown {
+		padding: $s * 2;
+		margin-left: $s * 2;
+	}
+}

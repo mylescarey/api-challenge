@@ -1,0 +1,28 @@
+@import '../variables';
+
+.card {
+	background-color: white;
+	display: flex;
+}
+
+.image {
+	flex: 1;
+	img {
+		height: 100%;
+	}
+}
+
+.content {
+	flex: 2;
+	padding: $s * 3;
+	color: grey;
+	font-size: 14px;
+	text-align: left;
+	header {
+		font-size: 1.2em;
+		font-weight: 600;
+	}
+	p {
+		margin-bottom: $s * 2;
+	}
+}

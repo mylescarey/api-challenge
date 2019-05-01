@@ -18,7 +18,7 @@ class Nav extends Component<IProps & IReduxProps & IReduxDispatch, IState> {
 			<nav className={styles.nav}>
 				<span>Booklist</span>
 				<div>
-					<input onChange={e => this.props.fetchBooks(e.target.value)} placeholder="Search a book" />
+					<input onChange={e => this.props.fetchBooks(e.target.value)} placeholder="Author Search" />
 				</div>
 			</nav>
 		);

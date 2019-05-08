@@ -1,6 +1,12 @@
 // IBook interface
 
-export interface IBook {}
+export interface IBook {
+  volumeInfo: {
+    title: string;
+    authors: string;
+  };
+  pageCount: number;
+}
 
 // action types
 export const FETCH_BOOKS = "FETCH_BOOKS";

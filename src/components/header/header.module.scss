@@ -1,0 +1,13 @@
+.nav {
+  background-color: purple;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  height: 100px;
+
+  p {
+    font-size: 20px;
+    background-color: purple;
+  }
+}

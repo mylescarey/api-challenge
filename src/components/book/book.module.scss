@@ -1,3 +1,4 @@
+$primary-colour: purple;
 $card-width: 265px;
 $card-height: $card-width * 3.5 / 2.5;
 $picture-width: 100px;
@@ -9,6 +10,7 @@ $picture-height: $picture-width * 3.5 / 2.5;
   height: $card-height;
   perspective: 600px;
   margin: 10px;
+  border: 2px solid $primary-colour;
 }
 
 .card {
@@ -18,7 +20,22 @@ $picture-height: $picture-width * 3.5 / 2.5;
   transition: transform 1s;
   transform-style: preserve-3d;
 
-  * {
-    margin: 10px;
+  h1 {
+    font-weight: 400;
+    background-color: $primary-colour;
+    color: white;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  h2 {
+    margin: 5px;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  p {
+    margin: 5px;
   }
 }
